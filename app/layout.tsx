@@ -4,7 +4,6 @@ import { AuthProvider } from "@/context/AuthContext";
 import { CartProvider } from "@/context/CartContext";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-// import "./globals.css";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -13,6 +12,9 @@ export const metadata: Metadata = {
   title: "My store",
   description:
     "My Store, an e-commerce website which utilizes DummyJson/products and Firebase in backend and database.",
+    icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({
